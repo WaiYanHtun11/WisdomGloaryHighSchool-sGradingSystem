@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Solo Project</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="FONT/css/fontawesome.min.css">
+    <link rel="stylesheet" href="BST/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css" />
+  
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Welcome from solo project</h1>
+    <div id="preloader">
+            <div id="loading-animation">&nbsp;</div>
+        </div>
+        
+    <!--testing the Boostarp gridi -->
+    <!--
+        
+    -->
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4" id="c1">Column 1<i class="fa fa-laptop"></i></i></div>
+            <div class="col-md-4" id="c2">Cloumn 2</div>
+            <div class="col-md-4" id="c3">Column 3</div>
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript">
+        /* ======== Preloader ======== */
+        $(window).load(function() {
+            var preloaderDelay = 100,
+                    preloaderFadeOutTime = 200;
+    
+            function hidePreloader() {
+                var loadingAnimation = $('#loading-animation'),
+                        preloader = $('#preloader');
+                loadingAnimation.fadeOut();
+                preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);
+            }
+    
+            hidePreloader();
+        });
+    </script>
+</body>
+</html>

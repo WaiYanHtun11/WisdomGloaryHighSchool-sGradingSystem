@@ -1,0 +1,305 @@
+body {
+    background:white }
+  
+  #header {
+    background-color: aliceblue; }
+  
+  #tst {
+    background-color: aquamarine; }
+    body{
+      background-attachment: scroll;
+      
+  }
+  #bodypane{
+   
+    /* border:2px sold gray;*/
+     background-position: center;
+     width: 100%;
+     height: 80%;
+     border-radius: 1em;
+  
+  }
+  #wrapper{
+           width: 100%;
+           height: 100%;
+           margin-right:20px;
+          
+           
+       }
+     /*  #header
+       {
+        
+            background-image:url(headbg.png);
+          background-repeat: no-repeat;
+          background-attachment:scroll;
+          height:106;
+      background-position: top-left;
+          background-size:100% 106px;
+      border-radius:1em;
+   
+       }*/
+      #loginpane{
+          border:0px solid white;
+          border-radius:.5em;
+             width:500px;
+             height:183px;
+          background-position: center;
+          align-items: center;
+          margin-left: 430px;
+          margin-top: 280px;
+          float:center;
+        
+              }
+              #loginpane2{
+                 border:0px solid white;
+                 border-radius:.5em;
+                 background-position: center;
+                 align-items: center;
+                 margin-left: 100px;
+                 margin-top: 260px;
+               
+               
+               
+                     }
+              #space{
+                  height: 80px;
+                  text-align: center;
+                  background-color: azure;
+                  padding-top:15px;
+
+              }
+     h3{
+         color:red;
+         text-align: center;
+     }    
+     input[type=submit]{
+         border-radius:.6em;
+         cursor:pointer;
+         -webkit-border-radius:2em;
+         height:30px;
+         width:130px;
+         background-color:lightskyblue;
+         color:black;
+     }
+     input[type=password]{
+         cursor:pointer;
+         border-style:solid;
+         border-width: 0px;
+         border-radius: .3em;
+         color:black;
+       /*  background-color:rgba(235, 234, 222,.4);*/
+         text-decoration-color: black;
+         height:25px;
+  
+     }
+     #lower{
+         padding-top:10px;
+         margin-left:180px;
+  
+     }
+     #header{
+         height: 80px;
+         
+         border-radius: .5em;
+         text-align:center;
+         
+     }
+  #header2{
+      text-align: center;
+      background-color:lavender;
+      border:0;
+      height:80px;
+      border-radius: 10px;
+      -webkit-margin-top-collapse: collapse;
+      padding-top:0px;
+      text-decoration-color: black;
+      text-shadow:1em; 
+      padding-top:6px;
+
+  }
+  #header4{
+       height:80px;
+       margin-top:-30px;
+       padding-top:5px;
+       border-radius: 10px;
+       text-align: center;
+       padding-left:20;
+       padding-right:20;
+    
+  }
+  #header3{
+      text-align: center;
+    background-color:lavender;
+    border:0;
+    border-radius: 10px;
+    -webkit-margin-top-collapse: collapse;
+    padding-top:0px;
+    height: 60;
+    padding-left:20px;
+    padding-top:20px;
+
+  }
+  #pane2{
+    border:0px solid black;
+    padding:5px 5px 5px 5px;
+    /*height:85%;
+    width:30%;*/
+    margin-top:-750px;
+    border-radius:.6em;
+    background-color:lavenderblush;
+    
+
+
+  }
+  #pane3{
+    border:0px solid black;
+    padding:5px 5px 5px 5px;
+    /*height:85%;
+    width:30%;*/
+    border-radius:.6em;
+    background-color:lavenderblush;
+
+
+  }
+
+  #pane1{
+      border:0px solid black;
+      padding:5px 5px 5px 5px;
+      /*height:85%;
+      width:30%;*/
+      margin-top:-1860px;
+     
+      border-radius:.6em;
+    background-color:lavenderblush;
+  }
+  #tit{
+      text-align: center;
+      font-weight: bold;
+      font-size:25;
+      border-radius: 2em;
+
+      text-decoration: underline;
+      text-decoration-color: aquamarine;
+  }
+#box{
+    text-align:center;
+    overflow-y:scroll;
+        height: 87%;  
+        background-color:lavender;
+        border-radius: .6em;
+        scrollbar-base-color: white;
+
+}
+
+#mp{
+    width:95%;
+    border-radius: .6em;
+    border:1px solid black;
+    height:95%;
+  
+}
+#mp3{
+    text-align:center;
+    border-radius: .6em;
+
+}
+#error{
+    color:red;
+    font-weight:bold;
+    font-size: 18;
+   text-align: center;
+    
+    align-content: center;
+    height: 20px;
+    border-radius: .6em;
+}
+/*#logo{
+    background-image: url(lg.jpg) no-repeat;
+    background-color:white;
+    size: 100px 100px;
+    border-radius:10em;
+    margin-left:0px;
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    text-align: center;
+    margin-top:-75px;
+    margin-left: 10px;
+}*/
+#imagepane{
+    border-radius: 20px;
+    border:0px solid black;
+    margin-top:10px;
+    background-color:lightgrey;
+    padding:10px;
+    
+
+}#wisdom{
+    background-image: url('education.jpg') no-repeat;
+    
+}
+#choice{
+    text-align:center;
+    border-radius:1em;
+    background-color:lavenderblush;
+    height:50px;
+    width:500px;
+    text-align:center;
+    padding:10px;
+    margin-left:30%;
+    margin-top:10px;
+}
+#space2{
+                     height: 500px;
+                  text-align: center;
+                  background-color: azure;
+                  padding-top:15px;
+                  padding-top:100px;
+                  border:1px solid black;
+}
+#total{
+    float:left;
+    font-weight:bold;
+    margin-top:10px;
+    margin-left:20px;
+    border:1px solid white;border-radius:.6em;
+    width:60px;
+    height:60px;
+    padding-top:2px;
+    color:lavenderblush
+}#mp2{
+    width:95%;
+    border-radius: .6em;
+    border:1px solid black;
+    height:auto;
+    background-color:lightgreen;
+    margin-left:20px;
+
+}
+#keyboard{
+    width:auto;
+    height: auto;
+    border-radius:2em;
+}
+#cat{
+    margin-left:45%;
+}
+#preloader {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    position: fixed;
+    background-color: #fff;
+}
+
+#loading-animation {
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      margin: -100px 0 0 -100px;
+      background: url('IMG/preload.gif') center center no-repeat;
+}

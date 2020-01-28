@@ -1,0 +1,65 @@
+window.onload = function(){
+  var el = document.getElementById('elementID');
+  el.style.display = 'none';
+};
+
+<div id="preloader">
+    <div id="loading-animation">&nbsp;</div>
+</div>
+
+
+<script type="text/javascript">
+    /* ======== Preloader ======== */
+    $(window).load(function() {
+        var preloaderDelay = 350,
+                preloaderFadeOutTime = 800;
+
+        function hidePreloader() {
+            var loadingAnimation = $('#loading-animation'),
+                    preloader = $('#preloader');
+            loadingAnimation.fadeOut();
+            preloader.delay(preloaderDelay).fadeOut(preloaderFadeOutTime);
+        }
+
+        hidePreloader();
+    });
+</script>
+
+#preloader {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    position: fixed;
+    background-color: #fff;
+}
+
+#loading-animation {
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      margin: -100px 0 0 -100px;
+      background: url('loading-animation.gif') center center no-repeat;
+}
+
+
+
+down vote
+
+You can do this with JQuery. Say your page looks like this:
+
+<body>
+   <div id='loader'>Loader graphic here</div>
+   <div id='pagecontent' style='display:none'>Rest of page content here</div>
+</body>
+You can have a JQuery function to show pagecontent when the entire page is loaded:
+
+$(document).ready(function() {
+    $(window).load(function() {
+         $('#loader').hide();
+         $('#pagecontent').show();
+    });
+});
